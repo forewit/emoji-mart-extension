@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "My Plugin",
+    "name": "emoji",
     "version": "1.0",
     "permissions": [
         "activeTab"
@@ -14,5 +14,11 @@
     },
     "icons": {
         "120": "icon.png"
-    }
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://*/*"],
+          "js": ["content-script.js"]
+        }
+      ]
 }
