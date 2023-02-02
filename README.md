@@ -1,6 +1,6 @@
-# emoji-mart-extension
+# emojis-extension
 
-**Thanks to**: https://github.com/missive/emoji-mart
+**Credit**: https://github.com/missive/emoji-mart
 
 ## How to install
 1. Save the contents to a folder on your device
