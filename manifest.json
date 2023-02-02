@@ -1,12 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "emoji",
+    "name": "Emojis",
     "version": "1.0",
+    "description": "Emojimart emoji picker",
     "action": {
         "default_icon": {
             "120": "icon.png"
         },
-        "default_title": "Click Me",
+        "default_title": "Emojis",
         "default_popup": "popup.html"
     },
     "icons": {
