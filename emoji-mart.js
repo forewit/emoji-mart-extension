@@ -3694,8 +3694,8 @@
             height: 435px;
             min-height: 230px;
             border-radius: var(--border-radius);
-            box-shadow: var(--shadow);
-            --border-radius: 10px;
+            /*box-shadow: var(--shadow);*/
+            --border-radius: 0px;
             --category-icon-size: 18px;
             --font-family: Segoe UI Historic;
             --font-size: 11px;

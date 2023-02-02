@@ -2,9 +2,6 @@
     "manifest_version": 3,
     "name": "emoji",
     "version": "1.0",
-    "permissions": [
-        "activeTab"
-    ],
     "action": {
         "default_icon": {
             "120": "icon.png"
@@ -14,11 +11,5 @@
     },
     "icons": {
         "120": "icon.png"
-    },
-    "content_scripts": [
-        {
-          "matches": ["https://*/*"],
-          "js": ["content-script.js"]
-        }
-      ]
+    }
 }
