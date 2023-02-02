@@ -1,4 +1,4 @@
-# emojis-extension
+# ❤️ Emojis Chrome Extension
 
 **Credit**: https://github.com/missive/emoji-mart
 
