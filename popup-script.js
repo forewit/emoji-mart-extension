@@ -1,11 +1,3 @@
-function selectEmoji(emoji) {
-    // copy to clipboard
-    navigator.clipboard.writeText(emoji.native);
-
-    // focus the search
-    picker.shadowRoot.querySelector('.search input').focus();
-}
-
 const customCategoryIcons = {
     frequent: {
         svg: '<svg viewBox="-4.32 -4.32 32.64 32.64" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12ZM17.5 13.5C18.0523 13.5 18.5 13.0523 18.5 12.5V11.5C18.5 10.9477 18.0523 10.5 17.5 10.5H13.5V4.5C13.5 3.94772 13.0523 3.5 12.5 3.5H11.5C10.9477 3.5 10.5 3.94772 10.5 4.5V12.5C10.5 13.0523 10.9477 13.5 11.5 13.5H17.5Z" fill="currentColor"></path> </g></svg>'
@@ -34,6 +26,17 @@ const customCategoryIcons = {
     flags: {
         svg: '<svg viewBox="0 0 36 36" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6" fill="currentColor" height="18" width="18"><path d="M7.961 8.88c2.7-1.332 5.572-1.152 10.039.54 4.096 1.551 6.85 1.303 9.36.005.72-.372 1.64.11 1.64.92v15.132c0 .687-.345 1.34-.961 1.644-2.7 1.33-5.572 1.15-10.039-.541-4.096-1.551-6.85-1.303-9.36-.005-.72.372-1.64-.11-1.64-.92V10.524c0-.687.345-1.34.961-1.644z"></path></svg>'
     },
+}
+
+function selectEmoji(emoji) {
+    // copy emoji to clipboard
+    navigator.clipboard.writeText(emoji.native);
+
+    // close the popup window
+    window.close();
+
+    // focus the search
+    //picker.shadowRoot.querySelector('.search input').focus();
 }
 
 const pickerOptions = {
