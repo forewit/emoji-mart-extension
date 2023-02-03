@@ -3695,9 +3695,8 @@
             min-height: 230px;
             border-radius: var(--border-radius);
             /*box-shadow: var(--shadow);*/
-            --border-radius: 0;
+            --border-radius: 16px 16px 0 16px;
             --category-icon-size: 18px;
-            --font-family: Segoe UI Historic;
             --font-size: 13px;
             --preview-placeholder-size: 21px;
             --preview-title-size: 1.1em;
@@ -3759,7 +3758,6 @@
           input,
           button {
             color: rgb(var(--em-rgb-color));
-            font-family: var(--font-family);
             font-size: var(--font-size);
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
