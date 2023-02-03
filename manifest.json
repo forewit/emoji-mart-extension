@@ -3,9 +3,6 @@
     "name": "Emojis",
     "version": "1.0",
     "description": "Emojimart emoji picker",
-    "permissions": [
-        "activeTab"
-    ],
     "action": {
         "default_icon": {
             "120": "icon.png"
@@ -15,17 +12,5 @@
     },
     "icons": {
         "120": "icon.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*..com/*"
-            ],
-            "js": [
-                "messenger/webcomponents-bundle.js",
-                "messenger/messenger-emoji-mart.js",
-                "messenger/messenger-content-script.js"
-            ]
-        }
-    ]
+    }
 }
